@@ -9,7 +9,6 @@ import java.util.List;
 
 
 public interface EmployeeService {
-
     public List<Employee> getAllEmployee();
     public Employee getEmployeeById(Long id);
     public Employee createEmployee(Employee employee);
